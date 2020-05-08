@@ -1,0 +1,6 @@
+body {
+    background-image: url('images/fondoHome.jpg');
+    background-size: cover;
+    background-color: rgba(55, 144, 204, 0.3);
+    background-blend-mode: multiply;
+}

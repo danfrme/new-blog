@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    color:white;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 2px solid rgb(235, 226, 226);
+    background-color: rgb(34, 29, 29);
+}
+
+header img {
+    width: 60px;
+    transition: all 0.1s;
+}
+
+header img:hover {
+    transform: scale(1.05);
+    transition: all 0.3s;
+}
+
+header .nav-bar {
+    width: 70%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .nav-bar li {
+    padding: 1em 3em;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+
+header .nav-bar li:hover {
+    background-color: rgba(170, 157, 157, 0.3);
+    transform: scaleY(1.08);
+    transition: all 0.3s;
+}
+
+header .nav-bar .link {
+    text-decoration: none;
+    color: white;
+}

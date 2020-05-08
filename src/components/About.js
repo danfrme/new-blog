@@ -10,6 +10,7 @@ export class About extends Component {
             </div>
             <div className="about-content about-text">
                 <p>This is a React Project made by {this.props.userName}</p>
+                <p>Copyright &copy; 2020</p>
             </div>
             </Fragment>
         )

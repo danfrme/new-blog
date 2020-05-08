@@ -8,6 +8,7 @@ header {
 }
 
 header img {
+    cursor: pointer;
     width: 60px;
     transition: all 0.1s;
 }

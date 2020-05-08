@@ -1,9 +1,9 @@
 
 .about-content {
     position: absolute;
-    top: 20%;
-    left: 15%;
-   
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%,-50%);
     display: flex;
     width: 30%;
     height: 500px;
@@ -11,19 +11,24 @@
     align-items: center;
     text-align: center;
     border: solid white;
-    color: rgb(0, 0, 0);
     background-color: rgba(219, 106, 30, 0.35);
     transition: all 0.3s;
 }
 
 .about-text {
-    top:30%;
-    left: 60%;
+    left: 75%;
     font-size: 30px;
     height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-text p {
+    margin: 1em 0;
 }
 
 .about-content:hover {
-    transform: scale(1.01);
+    background-color: rgba(219, 106, 30, 0.55);
+    transform: translate(-50%,-50%) scale(1.01);
     transition: all 0.4s;
 }

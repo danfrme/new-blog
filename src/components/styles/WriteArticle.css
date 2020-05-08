@@ -1,0 +1,8 @@
+
+.text-writer {
+    min-height: 200px;
+    min-width: 500px;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.60);
+    margin-bottom: 30px;
+}
